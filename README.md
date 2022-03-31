@@ -50,6 +50,7 @@
 ##### 13. git cherry-pic을 쓰면 커밋만 따올 수 있음. (커밋 아이디 복사) - how to copy commit 검색.
 ##### 14. git reset --hard HEAD~1 이런식으로 잘못 커밋을 삭제할 수 있다.
 ##### 15. git log --graph--oneline master 브랜치 : 브랜치가 master에서 언제 만들었는지 나온다.
+##### 16. git reflog : 헤드가 가리키던 커밋 이력을 볼 수 있음. 
 
 ---
 ##### - 정보 정리.
@@ -61,4 +62,4 @@
 ###### git에서 blame 이라는 기능을 사용 시, 언제 누가 왜 수정했는제 파악할 수 있다. (IntelliJ같은 경우 코드란 왼쪽 마우스 우클릭 시 git blame 어노테이션 보기 하면 보인다.)
 ###### IntelliJ에서는 줄단위로도 커밋이 가능.(파일 여러개 수정 시, commit changes를 열어서 커밋할 파일 고르고, 커밋한 파일에서도 체크박스로 줄단위 커밋이 가능.)
 ###### VSCode 사용 시 git lens, git history 필수 플러그인, git graph, git history diff 도 좋음.
-###### HEAD -> ? 문장은 현재 체크아웃 한 브랜치의 가장 최신 커밋을 가리키는 화살표 (포인터)
+###### HEAD -> ? 문장은 현재 체크아웃 한 브랜치의 가장 최신 커밋을 가리키는 화살표 (포인터) / commit checkout 시 Detached HEAD라고 메시지를 보여줌.
